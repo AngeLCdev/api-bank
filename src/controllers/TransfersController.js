@@ -11,6 +11,7 @@ transfersController.setTransfer = async (req, res) => {
 
     const { getClientByCard } = require('../services/getClient')
     const { getDataCard, getMovsByCard } = require('../services/getDataCard')
+
     const dataClient = await getClientByCard({ idCard })
     if (!dataClient) return res.status(404).json({ message: 'Client not found' })
     const dataCard = await getDataCard({ client: dataClient, idCard })
