@@ -21,7 +21,9 @@ POST DATA FOR TRANSFERS
 	}
 }
 
-http://localhost:3000/api/v1/transfers/4651213
-http://localhost:3000/api/v1/moves/956123/transferExpense CARD IS NOT ACTIVATE
-http://localhost:3000/api/v1/moves/632541/transferExpense
+http://localhost:3000/api/v1/transfers/4651213 -- POST
+http://localhost:3000/api/v1/moves/956123/transferExpense CARD IS NOT ACTIVATE -- GET
+http://localhost:3000/api/v1/moves/632541/transferExpense -- GET
+http://localhost:3000/api/v1/moves/632541/cashExpense -- GET
+http://localhost:3000/api/v1/moves/4651213/cashIncome -- GET
 
