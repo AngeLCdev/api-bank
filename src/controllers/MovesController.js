@@ -14,8 +14,8 @@ movesController.getMoves = async (req, res) => {
 
     if (!dataClient) return res.status(404).json({ message: 'Client not found' })
     const dataCard = await getDataCard({ client: dataClient, idCard })
-    if (!dataCard.isActive) return res.status(200).json({ message: 'Card is not activate.' })
-    console.log(dataCard)
+    if (!dataCard.isActive) return res.status(400).json({ message: 'Card is not activate.' })
+
     const movesCard = await getMovsByCard({ client: dataClient, ibanCard: dataCard.ibanAssociate })
     let data = {}
 

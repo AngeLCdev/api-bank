@@ -30,7 +30,7 @@
             },
             {
                 "cardId": "632541",
-                "cardNumber": "987654321",
+                "cardNumber": "654987123",
                 "cardType": "debit",
                 "cardHolder": "John Doe",
                 "expirationDate": "12/2024",
@@ -45,6 +45,7 @@
             {
                 "iban": "ES2301282861298839426936",
                 "bank": "BBVA",
+                "bic": "BBVAESMMXXX",
                 "balance": "1000",
                 "currency": "RON",
                 "incomes": {
@@ -115,6 +116,7 @@
             {
                 "iban": "ES7921000813610123456789",
                 "bank": "BANKINTER",
+                "bic": "BKBKESMMXXX",
                 "balance": "1000",
                 "currency": "RON",
                 "incomes": {
@@ -185,6 +187,7 @@
             {
                 "iban": "ES9121000418450200051332",
                 "bank": "BANKINTER",
+                "bic": "BKBKESMMXXX",
                 "balance": "1000",
                 "currency": "RON",
                 "incomes": {
